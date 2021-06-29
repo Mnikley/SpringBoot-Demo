@@ -10,8 +10,7 @@ public class Module {
     String name;
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
-    LocalDate expiration_date;
-    Boolean is_expired;
+    LocalDate expirationDate;
 
     // getters&setters
     public String getName() {
@@ -21,20 +20,16 @@ public class Module {
         this.name = name;
     }
 
-    public LocalDate getExpirationDate() { return expiration_date; }
+    public LocalDate getExpirationDate() { return expirationDate; }
     public void setExpirationDate(LocalDate expiration_date) {
-        this.expiration_date = expiration_date;
+        this.expirationDate = expiration_date;
     }
 
-    public Boolean getExpiredState() { return is_expired; }
-    public void setExpiredState(Boolean is_expired) { this.is_expired = is_expired; }
-
     // actual Class
-    public Module(String name, LocalDate expiration_date, Boolean is_expired) {
+    public Module(String name, LocalDate expirationDate) {
         super();
         this.name = name;
-        this.expiration_date = expiration_date;
-        this.is_expired = is_expired;
+        this.expirationDate = expirationDate;
     }
 
 }
