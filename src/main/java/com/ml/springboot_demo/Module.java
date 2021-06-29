@@ -1,4 +1,4 @@
-package com.leysolutions.iblab_springboot_demo;
+package com.ml.springboot_demo;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import org.springframework.format.annotation.DateTimeFormat;

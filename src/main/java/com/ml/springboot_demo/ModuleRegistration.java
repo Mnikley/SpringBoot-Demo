@@ -1,4 +1,4 @@
-package com.leysolutions.iblab_springboot_demo;
+package com.ml.springboot_demo;
 //source: https://dzone.com/articles/spring-boot-restful-web-service-complete-example
 
 import java.util.ArrayList;

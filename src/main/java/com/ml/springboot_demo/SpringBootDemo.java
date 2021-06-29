@@ -1,4 +1,4 @@
-package com.leysolutions.iblab_springboot_demo;
+package com.ml.springboot_demo;
 
 // adapted from source: https://learnjava.co.in/how-to-create-springboot-rest-service-and-test-it-via-postman/
 
@@ -8,10 +8,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
-public class IBLabDemo {
+public class SpringBootDemo {
 
     public static void main(String[] args) {
-        SpringApplication.run(IBLabDemo.class, args);
+        SpringApplication.run(SpringBootDemo.class, args);
     }
 
 }

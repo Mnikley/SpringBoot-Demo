@@ -1,10 +1,10 @@
-package com.leysolutions.iblab_springboot_demo;
+package com.ml.springboot_demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class IBLabDemoTests {
+class SpringBootDemoTests {
 
     @Test
     void contextLoads() {
