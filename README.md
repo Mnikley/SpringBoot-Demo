@@ -11,4 +11,5 @@ Java Spring Boot RESTful API to simulate dealing with product licenses and to le
 - Clone repository
 - IntelliJ: open SpringBoot-Demo folder as project
 - Postman: import SpringBoot-Demo.postman_collection.json
-- Run project, execute postman commands
+- Run project, execute postman commands 
+- [Link to SpringBoot-Demo Postman Documentation](https://documenter.getpostman.com/view/16381387/UV5UkKAw)
